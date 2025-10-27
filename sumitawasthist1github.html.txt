@@ -1,0 +1,34 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<title>GitHub Registration Form <title>
+<head>
+<body>
+<h1>align = GitHub Registration Form <h1>
+<hr>
+<registration form>
+< Full Name >
+<p>
+<label>Full Name: </label>
+<input type= text name=full name palceholder="enter full name"
+<p>
+<email with validation>
+<p>
+<label>Email:<label>
+<input type ="email" name = "email" placeholder =enter email address <required>
+<p>
+<password>
+<label>
+<password legal>
+<input type>=password name placeholder= enter password <required>
+<submit and reset>
+<p>
+<input type>=sbmit value register
+<input type>="reset" vale "clear"
+</p>
+</form>
+<hr>
+p align="center">&copy;2025 GitHub Registration Form <p>
+<body>
+<html>
+
