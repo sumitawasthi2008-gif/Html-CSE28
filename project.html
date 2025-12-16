@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #EAEDED;
+        }
+        /* Header */
+        .navbar {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #FF9900;
+            margin-right: 20px;
+        }
+        .search-box {
+            flex: 1;
+            display: flex;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+        }
+        .search-box button {
+            padding: 8px 12px;
+            background-color: #febd69;
+            border: none;
+            cursor: pointer;
+        }
+        .nav-links {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        
+        /* Banner */
+        .banner {
+            background-color: #232F3E;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        /* Products */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+        .product h3 {
+            font-size: 16px;
+        }
+        .product p {
+            color: green;
+            font-weight: bold;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #131921;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="navbar">
+    <div class="logo">amazon</div>
+    <div class="search-box">
+        <input type="text" placeholder="Search Amazon">
+        <button>Search</button>
+    </div>
+    <div class="nav-links">Hello, Sign in<br><b>Account & Lists</b></div>
+    <div class="nav-links">Returns<br><b>& Orders</b></div>
+    <div class="nav-links"><b>Cart</b></div>
+</div>
+
+<!-- Banner -->
+<div class="banner">
+    Shop deals in Electronics, Fashion, Mobile Phones & more
+</div>
+
+<!-- Products Section -->
+<div class="products">
+    <div class="product">
+        <img src="https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/f29-series-in/f29/navigation/440-440-black-v2.png" alt="Product">
+        <h3>Smartphone</h3>
+        <p>₹15,999</p>
+    </div>
+    <div class="product">
+        <img src="https://img.global.news.samsung.com/in/wp-content/uploads/2024/07/Venus_EXT_16_UK_Gray_007_Top-L-Perspective-e1720170818626.jpg" alt="Product">
+        <h3>Laptop</h3>
+        <p>₹45,999</p>
+    </div>
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/51rpbVmi9XL._SL1200_.jpg" alt="Product">
+        <h3>Headphones</h3>
+        <p>₹1,999</p>
+    </div>
+    <div class="product">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.tW2THcHjVClz4akyleVEsgHaJY?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Product">
+        <h3>Smart Watch</h3>
+        <p>₹2,999</p>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    © 2025 Amazon Clone | Web Designing Project (BTech 1st Sem)
+</footer>
+
+</body>
+</html>
